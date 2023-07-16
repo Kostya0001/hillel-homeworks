@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1, initial-scale=1.0" />
+    <title>Реєстрація</title>
+  </head>
+  <body>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+</style>
+    <h1>Реєстрація</h1>
+    <form action="https://fom.in.ua/echo" method="POST">
+      <label class="email" for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br />
+
+      <label class="password" for="password">Пароль:</label>
+      <input type="password" id="password" name="password" required /><br />
+
+      <label class="confirmPassword" for="confirmPassword"
+        >Підтвердження пароля:</label
+      >
+      <input
+        type="password"
+        id="confirmPassword"
+        name="confirmPassword"
+        required
+      /><br />
+
+      <button class="submit" type="submit">Зареєструватися</button>
+    </form>
+  </body>
+</html>

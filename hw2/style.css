@@ -1,0 +1,78 @@
+input {
+    margin-bottom: 5px;}
+#bodyType {
+    margin-left: -2px;}
+#brand {
+    margin-left: -2px;}
+#country {
+    margin-left: -2px;}
+#priceFrom {
+    margin-left: -2px;}
+#priceTo {
+    margin-left: -2px;}
+#yearFrom {
+    margin-left: -2px;}
+#yearTo {
+    margin-left: -2px;}
+#condition {
+    margin-left: -2px;
+margin-block-end: 5px;}
+#fuelType {
+    margin-left: -2px;}
+#transmission {
+    margin-left: -2px;}
+#color {
+    margin-left: -2px;}
+#comfort {
+    margin-left: -2px;}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+    
+}
+
+input {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 118px;
+}
+
+.remember {
+    width: auto;
+    margin-left: 0px;
+}
+
+#submit {
+margin-left: 119px;
+}
+#confirmPassword {
+margin-left: -36px;
+}
+#password {
+margin-left: -36px;
+}
+#email {
+margin-left: -36px;
+}
+#email-a {
+    margin-left: 0px;
+}
+#password-a {
+    margin-left: 0px;
+}
+#submit-a {
+    margin-left: 0px;}
+
+    body {
+        font-family: 'Arsenal', sans-serif;
+    }
+    
+    
+    
+    
