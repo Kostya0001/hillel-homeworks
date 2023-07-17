@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 60px;
+    font-size: 16px;
+}
+
+h1 {
+    color: red;
+    margin-left: -4px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.selector-example {
+    margin-bottom: 50px;
+}
+
+.selector-example p {
+    font-weight: bold;
+}
+
+.div1 {
+    width: 36%;
+    float: left;
+    margin-top: -3px;
+    border: 2px solid;
+    margin-left: -52px;
+    padding-left: 18px;
+    padding-top: 7px;
+}
+
+.div2 {
+    width: 36%;
+    float: left;
+    margin-top: -781px;
+    border: 2px solid;
+    margin-left: 630px;
+    padding-left: 14px;
+    padding-top: 7px;
+    margin-right: 636px;
+    
+}
+
+/* Селектор за id */
+#element1 {
+color: rgb(0, 255, 21);
+}
+
+/* Селектор за назвою елемента */
+h2 {
+color: rgb(255, 0, 0);
+}
+/* Селектор за класом */
+.element2 {
+color: rgb(0, 225, 255);
+}
+/* Селектор за кількома класами */
+.class1.class2 {
+color: rgb(68, 0, 255);
+}
+/* Селектор за вкладеністю */
+.parent .child {
+color: rgb(255, 0, 170);
+}
+ /* Селектор атрибута */
+[data-color="yellow"] {
+    color: rgb(131, 131, 45);
+}
+/* Селектор псевдокласу */
+a:hover {
+    color: rgb(0, 60, 255);
+    text-decoration: underline;
+}
+/* Селектор псевдоелемента */
+span::before {
+    content: "Before ";
+    color: green;
+}
+
+h3:not(.exclude) {
+background-color: yellow;
+}
+
+/* Селектор :nth-child() */
+ul li:nth-child(3) {
+    color: orange;
+}
