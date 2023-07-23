@@ -1,47 +1,47 @@
 .composition {
   margin-top: -8px;
-  margin-left:  -8px;
-    width: 600px;
-    height: 400px;
-    position: relative;
-    background: url("https://htmlbase.ru/storage/app/media/position-task1/bg.jpg");
-  }
-.box-planet-1 {
+  margin-left: -8px;
+  width: 600px;
+  height: 400px;
+  position: relative;
+  background: url("https://htmlbase.ru/storage/app/media/position-task1/bg.jpg");
+}
+
+.composition div {
   position: absolute;
-margin-top: 30px;
-margin-left: 180px;
+}
+
+.box-planet-1 {
+  top: 25px;
+  left: 174px;
 }
 
 .box-planet-2 {
-margin-left: -109px;
-  margin-top: -63px;
-
+  top: 84px;
+  left: 44px;
 }
-.box-spaceship {
 
-  margin-left: 85px;
-    margin-top: -110px;
+.box-spaceship {
+  top: 140px;
+  left: 154px;
 }
 
 .box-planet-3 {
-margin-left: 0px;
-margin-top: -61px;
+  top: 134px;
+  left: 152px;
 }
 
 .box-ufo {
-  margin-left: -13px;
-  margin-top: -83px;
+  top: 304px;
+  left: 132px;
 }
 
 .box-asteroid {
-    margin-left: 444px;
-      margin-top: 85px;
-
-      position: absolute;
+  top: 73px;
+  left: 431px;
 }
 
 .box-superman {
-    margin-left: 491px;
-      margin-top: 329px;
-      position: absolute;
+  top: 329px;
+  left: 491px;
 }
