@@ -12,26 +12,31 @@
 }
 
 .box-planet-1 {
+  z-index: 1;
   top: 25px;
   left: 174px;
 }
 
 .box-planet-2 {
+  z-index: 2;
   top: 84px;
   left: 44px;
 }
 
 .box-spaceship {
+  z-index: 3;
   top: 140px;
   left: 154px;
 }
 
 .box-planet-3 {
+  z-index: 4;
   top: 134px;
   left: 152px;
 }
 
 .box-ufo {
+  z-index: 5;
   top: 304px;
   left: 132px;
 }
