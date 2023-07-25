@@ -1,13 +1,12 @@
 .card-container {
 font-family: 'Ysabeau Infant', sans-serif;
-column-count: 3;
-column-gap: 20px;
 max-width: 700px;
 margin: 0 auto;
+width: 100%;
 }
 
 .card {
-break-inside: avoid;
+display: inline-block;
 margin-bottom: 20px;
 padding: 10px;
 border: 1px solid #ccc;
@@ -16,8 +15,7 @@ border-radius: 20px;
 text-align: center;
 Width: 200px;
 Height: 226px;
-Top: -64px;
-Left: -562px;
+
 }
 
 .card img {
