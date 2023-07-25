@@ -1,0 +1,40 @@
+.card-container {
+font-family: 'Ysabeau Infant', sans-serif;
+column-count: 3;
+column-gap: 20px;
+max-width: 700px;
+margin: 0 auto;
+}
+
+.card {
+break-inside: avoid;
+margin-bottom: 20px;
+padding: 10px;
+border: 1px solid #ccc;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+text-align: center;
+Width: 200px;
+Height: 226px;
+Top: -64px;
+Left: -562px;
+}
+
+.card img {
+width: 50%;
+height: 100px;
+object-fit: cover;
+border-radius: 100px;
+}
+
+.card h3 {
+margin-top: 10px;
+font-size: 25px;
+}
+
+.card p {
+margin-top: 29px;
+font-size: 17px;
+color: #666;
+
+}
