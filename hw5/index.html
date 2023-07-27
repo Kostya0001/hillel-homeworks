@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Types of selectors</title>
+  </head>
+  <body>
+    <div class="div1">
+      <h1>Типи селекторів в CSS</h1>
+
+      <div class="selector-example">
+        <p>Селектор за назвою елемента:</p>
+        <p>Приклад: <code>p</code></p>
+        <p>Обирає всі елементи <code>&lt;p&gt;</code>.</p>
+      </div>
+
+      <div class="selector-example">
+        <p>Селектор за id:</p>
+        <p>Приклад: <code>#element-id</code></p>
+        <p>Обирає елемент з ідентифікатором <code>element-id</code>.</p>
+      </div>
+
+      <div class="selector-example">
+        <p>Селектор за класом:</p>
+        <p>Приклад: <code>.element-class</code></p>
+        <p>Обирає всі елементи з класом <code>element-class</code>.</p>
+      </div>
+
+      <div class="selector-example">
+        <p>Селектор за кількома класами:</p>
+        <p>Приклад: <code>.class1.class2</code></p>
+        <p>
+          Обирає елементи, які мають класи <code>class1</code> і
+          <code>class2</code>.
+        </p>
+      </div>
+
+      <div class="selector-example">
+        <p>Селектор за вкладеністю:</p>
+        <p>Приклад: <code>.parent .child</code></p>
+        <p>
+          Обирає елементи з класом <code>child</code>, які знаходяться в
+          елементі з класом <code>parent</code>.
+        </p>
+      </div>
+    </div>
+
+    <div class="div2">
+      <div class="color-example">
+        <h2>Селектор за назвою тегу (h2)</h2>
+      </div>
+
+      <div class="color-example">
+        <p id="element1">Селектор за id (#element1)</p>
+      </div>
+
+      <div class="color-example">
+        <p class="element2">Селектор за класом (.element2)</p>
+      </div>
+
+      <div class="color-example">
+        <p class="class1 class2">
+          Селектор за кількома класами (.class1.class2)
+        </p>
+      </div>
+
+      <div class="color-example">
+        <div class="parent">
+          <p class="child">Селектор за вкладеністю (.parent .child)</p>
+        </div>
+      </div>
+
+      <div class="color-example">
+        <p data-color="yellow">Селектор атрибута ([data-color="yellow"])</p>
+      </div>
+
+      <div class="color-example">
+        <a href="#">Селектор псевдокласу (a:hover)</a>
+      </div>
+
+      <div class="color-example">
+        <span>Селектор псевдоелемента (span::before)</span>
+      </div>
+
+      <div class="color-example">
+        <h3>Цей Тег (h2) матиме жовтий фон та відступи.</h3>
+        <h3 class="exclude">Цей Тег (h2) буде виключено із застосування стилів.</h3>
+        <h3>Цей Тег (h2) також матиме жовтий фон та відступи.</h3> 
+        </div>
+
+
+      <div class="color-example">
+        <ul>
+          <li>Елемент списку 1</li>
+          <li>Елемент списку 2</li>
+          <li>Елемент списку 3 (Селектор :nth-child(3))</li>
+          <li>Елемент списку 4</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
