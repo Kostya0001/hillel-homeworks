@@ -6,6 +6,7 @@ width: 100%;
 }
 
 .card {
+vertical-align: top;
 display: inline-block;
 margin-bottom: 20px;
 padding: 10px;
