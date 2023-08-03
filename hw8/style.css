@@ -1,103 +1,87 @@
+body {
+    background-color: #E6E6E6;
+    overflow: auto;
+    display: flex;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 65px;
+    font-size: 8ch;
+}
+
+
+
 .rectangle {
     background-color: #C4C4C4;
-    Width: 1100px; 
-    Height: 800px; 
-    Top: -430px; 
-    Left: -666px;
-  
+    width: 1080px;
+    height: auto;
+    margin: 0 auto;
 }
-.wrapper1 {
 
-
-background-color: #E6E6E6;
-Width: 1100px;
-Height: 200px;
-Top: -380px;
-Left: -616px;
-}
-.wrapper2 {
-  
- 
+.wrapper {
+    margin: 40px;
+    width: 1000px;
+    height: 200px;
     background-color: #E6E6E6;
-    Width: 1100px;
-    Height: 200px;
-    Top: -380px;
-    Left: -616px;
-}
-.wrapper3 {
- 
-   
-    background-color: #E6E6E6;
-    Width: 1100px;
-    Height: 200px;
-    Top: -380px;
-    Left: -616px;
 }
 
+.wrapper1 p {
+    margin-top: 30px;
+    font-size: 39px;
+}
 
-.item1 {
+.item1-left {
 
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: #FC8F8F;
     margin-right: 10px;
 }
 
-.item2 {
-    float: left;
-    width: 100px;
-    height: 100px;
+.item1-right {
+
+    float: right;
+    width: 200px;
+    height: 200px;
     background-color: #FC8F8F;
-    margin-right: 10px;
+    margin-left: 10px;
 }
-.item3 {
+
+.item2-left {
+
     float: left;
-    width: 100px;
-    height: 100px;
-    background-color: #FC8F8F;
-    margin-right: 10px;
-}
-.item4 {
-    float: left;
-    width: 100px;
-    height: 100px;
-    background-color: #FC8F8F;
-    margin-right: 10px;
-}
-.item5 {
-    float: left;
-    width: 100px;
-    height: 100px;
-    background-color: #FC8F8F;
-    margin-right: 10px;
-}
-.item6 {
-    float: left;
-    width: 100px;
-    height: 100px;
-    background-color: #FC8F8F;
-    margin-right: 10px;
-}
-.item7 {
-    float: left;
-    width: 100px;
-    height: 100px;
-    background-color: #FC8F8F;
-    margin-right: 10px;
-}
-.item8 {
-    float: left;
-    width: 100px;
-    height: 100px;
-    background-color: #FC8F8F;
-    margin-right: 10px;
-}
-.item9 {
-    float: left;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: #FC8F8F;
     margin-right: 10px;
 }
 
+.item2-right {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: #FC8F8F;
+    margin-left: 10px;
+}
+
+.item3-left {
+
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    margin-right: 10px;
+}
+
+.item3-right {
+
+    float: right;
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    margin-left: 10px;
+}
