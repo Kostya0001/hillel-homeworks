@@ -34,7 +34,6 @@ ul {
     display: none;
     position: absolute;
     background-color: #444;
-    border-top: 3px solid #666;
 }
 
 .menu li:hover>.submenu {
@@ -49,9 +48,8 @@ ul {
 .submenu .submenu {
     top: 0;
     left: 100%;
-    border-top: none;
-    border-left: 3px solid #666;
-}
+    }
+    
 .submenu li a:hover {
     background-color: #274992;
 }
