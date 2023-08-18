@@ -5,14 +5,17 @@ body {
     background-color: #f7f7f7;
     color: #333;
 }
+.conteiner{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 header {
     background-color: #EEEFF1;
     color: #000000;
     padding: 10px 0;
     text-align: center;
-    margin-left: -20px;
-    margin-right: -20px;
 }
 
 nav ul {
@@ -37,9 +40,8 @@ h1 {
     color: #34547A;
 }
 
-.grey-t {
+.grey-text {
     color: #727272;
-    padding: 30px;
 }
 
 nav a {
@@ -49,12 +51,6 @@ nav a {
 
 .web {
     background-color: #EEEFF1;
-    margin: 108px;
-    margin-inline-start: 50px;
-    display: flex;
-    text-align-last: start;
-    align-items: center;
-    flex-direction: column;
 }
 
 .content {
