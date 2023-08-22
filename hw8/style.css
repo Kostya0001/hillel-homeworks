@@ -28,13 +28,17 @@ p {
     background-color: #E6E6E6;
 }
 
+.wrapper1 {
+    float: right;
+
+}
+
 .wrapper1 p {
     margin-top: 30px;
     font-size: 39px;
 }
 
 .item1-left {
-
     float: left;
     width: 200px;
     height: 200px;
@@ -43,7 +47,6 @@ p {
 }
 
 .item1-right {
-
     float: right;
     width: 200px;
     height: 200px;
@@ -52,7 +55,6 @@ p {
 }
 
 .item2-left {
-
     float: left;
     width: 200px;
     height: 200px;
@@ -61,7 +63,7 @@ p {
 }
 
 .item2-right {
-    float: right;
+    display: inline-block;
     width: 100px;
     height: 100px;
     background-color: #FC8F8F;
@@ -69,7 +71,6 @@ p {
 }
 
 .item3-left {
-
     float: left;
     width: 200px;
     height: 200px;
@@ -78,10 +79,14 @@ p {
 }
 
 .item3-right {
-
-    float: right;
+    display: inline-block;
     width: 200px;
     height: 200px;
     background-color: #FC8F8F;
     margin-left: 10px;
 }
+
+.wrapper2 {
+    float: right;
+}
+
