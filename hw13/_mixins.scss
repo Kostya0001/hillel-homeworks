@@ -1,0 +1,12 @@
+
+@mixin rounded-corners($radius) {
+    border-radius: $radius;
+}
+
+@mixin box-shadow($shadow) {
+    box-shadow: $shadow;
+}
+
+@mixin gradient-background($color1, $color2) {
+    background: linear-gradient($color1, $color2);
+}

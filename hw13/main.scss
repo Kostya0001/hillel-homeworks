@@ -1,0 +1,47 @@
+@import "variables";
+@import "mixins";
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.element {
+  color: $color;
+  font-size: $font-size;
+  font-weight: $bold;
+  margin: $margin;
+  width: $size;
+  height: $size;
+
+  @include rounded-corners(10px);
+  @include box-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+  @include gradient-background(rgb(0, 153, 255), rgb(255, 251, 0));
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 30px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 20px;
+
+  &:hover {
+    background-color: darkblue;
+  }
+
+  &.disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+}
+
+h1 {
+  color: black;
+  font-size: 100px;
+  margin: 100px;
+}
