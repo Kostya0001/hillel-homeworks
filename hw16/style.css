@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrapper {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  background-color: #EEEFF1;
+  padding: 70px 0;
+}
+
+.navigation-list {
+  display: flex;
+  font-size: 16px;
+}
+
+nav li {
+  margin-right: 42px;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.special-link {
+  color: #34547A;
+}
+
+.intro_block {
+  background-color: #EEEFF1;
+  height: 380px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 60px;
+}
+
+.grey-text {
+  color: #727272;
+  font-size: 16px;
+  margin-bottom: 65px;
+}
+
+.grey-text_2 {
+  color: #727272;
+  font-size: 16px;
+  margin-bottom: 65px;
+  text-align: center;
+}
+
+.grey-text_2 {
+  color: #727272;
+  font-size: 16px;
+  margin-bottom: 65px;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #34547A;
+  color: #EEEFF1;
+  text-decoration: none;
+  font-size: 16px;
+  width: 225px;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about_me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 112px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.about_stat {
+  background-color: #34547A;
+  padding: 100px 0;
+}
+
+.cards {
+  color: #EEEFF1;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.cards_item {
+  display: flex;
+  gap: 20px;
+}
+
+.item_stat {
+  margin-top: 5px;
+}
+
+.nam {
+  font-size: 21px;
+}
+
+.project_text {
+  font-size: 16px;
+}
+
+.video_intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+
+footer {
+  padding: 50px;
+  background-color: #34547A;
+  color: #EEEFF1;
+}
+
+.video {
+  margin-bottom: 100px;
+}
+
+.date {
+  font-size: 13px;
+  margin-top: -20px;
+}
+
+.footer_item {
+  gap: 20px;
+}/*# sourceMappingURL=style.css.map */
