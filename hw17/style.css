@@ -1,0 +1,16 @@
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.container-fluid {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.carousel-item img {
+  max-height: 600px;
+  max-width: 100%;
+}/*# sourceMappingURL=style.css.map */
