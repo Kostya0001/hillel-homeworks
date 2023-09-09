@@ -64,6 +64,64 @@ input {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  header {
+    padding: 40px 0;
+  }
+  .navigation-list {
+    flex-direction: column;
+  }
+  nav li {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .intro_block {
+    padding-bottom: 60px;
+  }
+  h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  .grey-text {
+    font-size: 14px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+  }
+  .cta-button {
+    width: 100%;
+    height: 50px;
+  }
+  .about_stat {
+    padding: 80px 0;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .cards_item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .item_stat {
+    margin-top: 10px;
+  }
+  .nam {
+    font-size: 18px;
+  }
+  .project_text {
+    font-size: 14px;
+  }
+  .video_intro {
+    padding: 60px 0;
+  }
+  .video {
+    height: 200px;
+  }
+}
 .header {
   border-bottom: 1px solid #ccc;
 }
@@ -339,11 +397,22 @@ input {
   margin-right: 34px;
 }
 .software-list .raitings {
+  border-left: 1px solid #000;
   display: flex;
-  align-items: center;
-  padding-left: 90px;
-  border-left: 1px solid;
-  color: black;
+  justify-content: space-between;
+  width: 481px;
+  padding: 30px 62px 22px 70px;
+  margin: 10px 0 0;
+}
+.software-list .confession .logotype {
+  margin: 0 0 20px;
+}
+.software-list .confession .raiting {
+  margin: 0 0 4px;
+}
+.software-list .confession .text {
+  font-size: 15px;
+  line-height: 40px;
 }
 
 .integrate {
@@ -381,8 +450,8 @@ input {
 
 .made-easy-wrapper {
   position: relative;
-  padding: 151px 210px 161px;
   text-align: center;
+  padding: 100px 0;
 }
 .made-easy-wrapper .section-header {
   font-size: 50px;
