@@ -14,29 +14,131 @@
   padding: 0px 15px;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .container {
+    padding: 0 15px;
+  }
   .welcome-content-img {
     display: none;
   }
 
-}
-
-@media screen and (max-width: 767px) {
-  .welcome-content-img {
-      display: none;
-    }
-.welcome-section-wrapper {
-        display: flex;
-          flex-direction: column;
+  .navigation-list {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
-    .companies {
+  .navigation-list_item {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .navigation-list_item-link {
+    text-align: center;
+  }
+  .welcome-content {
+    text-align: center;
+  }
+
+  .button-group {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; 
+  }
+  .welcome-section-wrapper {
+    flex-direction: column-reverse;
+  }
+  .welcome-content-head {
+    text-align: center;
+    font-size: 40px; 
+    line-height: 48px;
+
+    .welcome-content-text {
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+    }
+    .welcome-content-img {
+      padding-top: 30px;
+      text-align: center;
+    }
+    .companies-list_item {
+      margin-right: 15px;
+      margin-bottom: 15px;
+    }
+    .benefits-content {
+      padding-right: 0;
+      text-align: center;
+    }
+    .benefits-content_header {
+      font-size: 24px;
+    }
+    .benefits-content_text {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .localization-list_item {
+      width: 100%;
+    }
+    .localization-list_img {
+      margin: 0 auto 10px;
+      display: block;
+    }
+    .tenfold-list_item {
+      width: 100%;
+    }
+    .tenfold-list_img {
+      margin: 0 auto 10px;
+      display: block;
+    }
+    .chief-wrapper {
+      flex-direction: column;
+    }
+    .chief_p1 {
+      text-align: center;
+    }
+    .chief_p2 {
+      font-size: 14px;
+      text-align: center;
+    }
+    .software-list {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .software-list .title {
+      margin-bottom: 15px;
+    }
+    .software-list .raitings {
+      border-left: none;
+    }
+    .software-list .text {
+      font-size: 14px;
+    }
+    .integrate-list h2 {
+      font-size: 24px;
+      text-align: center;
+    }
+    .integrate-list p {
+      padding: 0;
+      margin: 0 0 30px;
+      font-size: 16px;
+    }
+    .visual {
       display: none;
     }
-.welcome-content-img {
-  display: none;
+    .made-easy h2 {
+      font-size: 24px;
+    }
+    .made-easy p {
+      font-size: 16px;
+      margin-bottom: 30px;
+      margin-top: 15px;
+    }
+  }
 }
-}
-
 
 .header {
   border-bottom: 1px solid #ccc;
@@ -48,7 +150,6 @@
   align-items: center;
   padding: 15px 0px;
 }
-
 
 .navigation-list {
   display: flex;
@@ -168,20 +269,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
+
   padding-right: 130px;
 
   :not(:last-child) {
     margin-bottom: 30px;
   }
-}
-
-.benefits-content_img img {
-  max-width: 100%;
-}
-
-.benefits-content_img {
-  max-width: 50%;
 }
 
 .benefits-content_header {
@@ -226,6 +319,8 @@
     justify-content: space-between;
 
     li {
+      width: 330px;
+      flex: 0 0 330px;
       text-align: center;
       margin: 0 0 57px;
     }
@@ -268,6 +363,8 @@
     justify-content: space-evenly;
 
     li {
+      width: 330px;
+      flex: 0 0 330px;
       text-align: start;
       margin: 0 0 57px;
     }
@@ -361,6 +458,7 @@
     border-left: 1px solid #000;
     display: flex;
     justify-content: space-between;
+    width: 481px;
     padding: 30px 62px 22px 70px;
     margin: 10px 0 0;
   }
@@ -463,6 +561,7 @@
   padding: 92px 0 48px;
 
   .main-column {
+    width: 370px;
 
     p {
       line-height: 25px;
@@ -515,7 +614,6 @@
 
 .frame {
   margin-bottom: 30px;
-
 }
 
 .columns {
@@ -523,7 +621,6 @@
   padding: 0 0 94px;
   margin: 0 0 48px;
   border-bottom: 1px solid #000;
-
 }
 
 .holder {

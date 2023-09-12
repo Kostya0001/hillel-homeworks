@@ -67,24 +67,126 @@ input {
   padding: 0px 15px;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .container {
+    padding: 0 15px;
+  }
   .welcome-content-img {
     display: none;
   }
-}
-@media screen and (max-width: 767px) {
-  .welcome-content-img {
-    display: none;
+  .navigation-list {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
-  .welcome-section-wrapper {
+  .navigation-list_item {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .navigation-list_item-link {
+    text-align: center;
+  }
+  .welcome-content {
+    text-align: center;
+  }
+  .button-group {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
   }
-  .companies {
+  .welcome-section-wrapper {
+    flex-direction: column-reverse;
+  }
+  .welcome-content-head {
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .welcome-content-head .welcome-content-text {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .welcome-content-head .welcome-content-img {
+    padding-top: 30px;
+    text-align: center;
+  }
+  .welcome-content-head .companies-list_item {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .welcome-content-head .benefits-content {
+    padding-right: 0;
+    text-align: center;
+  }
+  .welcome-content-head .benefits-content_header {
+    font-size: 24px;
+  }
+  .welcome-content-head .benefits-content_text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .welcome-content-head .localization-list_item {
+    width: 100%;
+  }
+  .welcome-content-head .localization-list_img {
+    margin: 0 auto 10px;
+    display: block;
+  }
+  .welcome-content-head .tenfold-list_item {
+    width: 100%;
+  }
+  .welcome-content-head .tenfold-list_img {
+    margin: 0 auto 10px;
+    display: block;
+  }
+  .welcome-content-head .chief-wrapper {
+    flex-direction: column;
+  }
+  .welcome-content-head .chief_p1 {
+    text-align: center;
+  }
+  .welcome-content-head .chief_p2 {
+    font-size: 14px;
+    text-align: center;
+  }
+  .welcome-content-head .software-list {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .welcome-content-head .software-list .title {
+    margin-bottom: 15px;
+  }
+  .welcome-content-head .software-list .raitings {
+    border-left: none;
+  }
+  .welcome-content-head .software-list .text {
+    font-size: 14px;
+  }
+  .welcome-content-head .integrate-list h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .welcome-content-head .integrate-list p {
+    padding: 0;
+    margin: 0 0 30px;
+    font-size: 16px;
+  }
+  .welcome-content-head .visual {
     display: none;
   }
-  .welcome-content-img {
-    display: none;
+  .welcome-content-head .made-easy h2 {
+    font-size: 24px;
+  }
+  .welcome-content-head .made-easy p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 15px;
   }
 }
 .header {
@@ -204,19 +306,10 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
   padding-right: 130px;
 }
 .benefits-content :not(:last-child) {
   margin-bottom: 30px;
-}
-
-.benefits-content_img img {
-  max-width: 100%;
-}
-
-.benefits-content_img {
-  max-width: 50%;
 }
 
 .benefits-content_header {
@@ -258,6 +351,8 @@ input {
   justify-content: space-between;
 }
 .localization-wrapper .localization-list li {
+  width: 330px;
+  flex: 0 0 330px;
   text-align: center;
   margin: 0 0 57px;
 }
@@ -293,6 +388,8 @@ input {
   justify-content: space-evenly;
 }
 .tenfold-wrapper .tenfold-list li {
+  width: 330px;
+  flex: 0 0 330px;
   text-align: start;
   margin: 0 0 57px;
 }
@@ -370,6 +467,7 @@ input {
   border-left: 1px solid #000;
   display: flex;
   justify-content: space-between;
+  width: 481px;
   padding: 30px 62px 22px 70px;
   margin: 10px 0 0;
 }
@@ -452,6 +550,9 @@ input {
 .footer {
   background: #eee;
   padding: 92px 0 48px;
+}
+.footer .main-column {
+  width: 370px;
 }
 .footer .main-column p {
   line-height: 25px;
